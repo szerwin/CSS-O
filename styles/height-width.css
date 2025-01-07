@@ -1,0 +1,37 @@
+.cajita1 {
+    border: 3px solid black; /* aplica un borde de 3px de grosor . */
+    background-color: blue; /* define el color de fondo . */
+    color: brown; /* define el color del texto . */
+    min-height: 100px; /* define una altura mínima de 100px. Si el contenido necesita más espacio, el div se ajustará automáticamente. */
+    width: 100px; /* define un ancho fijo de 100px. */
+}
+
+.cajita2 {
+    border: 3px solid black; /* aplica un borde de 3px de grosor. */
+    background-color: rgb(157, 255, 0); /* define el color de fondo como verde brillante usando valores RGB. */
+    color: rgb(94, 7, 79); /* define el color del texto  usando valores RGB. */
+    height: 100px; /* define una altura fija de 100px. */
+    width: 100px; /* define un ancho fijo de 100px. */
+}
+
+.cajita3 {
+    border: 3px solid black; /* aplica un borde de 3px de grosor. */
+    background-color: rgb(175, 105, 14); /* define el color de fondo usando valores RGB. */
+    color: rgb(12, 136, 63); /* define el color del texto usando valores RGB. */
+    height: 100px; /* define una altura fija de 100px. */
+    width: 100px; /* define un ancho fijo de 100px. */
+}
+
+.cajitaazul {
+    margin-top: 30px; /* añade un margen superior de 30px. */
+    border: 3px solid black; /* aplica un borde de 3px de grosor. */
+    background-color: rgb(8, 9, 100); /* define el color usando valores RGB. */
+    color: rgb(12, 136, 63); /* define el color del texto usando valores RGB. */
+    height: 500px; /* define un ancho fijo de 500px. */
+}
+
+.cajitaverde {
+    border: 3px solid black; /* aplica un define el color de fondo usando valores RGB. */
+    min-height: 100px; /* define una altura mínima de 100px. Si el contenido necesita más espacio, el div se ajustará automáticamente. */
+    width: 100px; /* define un ancho fijo de 100px. */
+}

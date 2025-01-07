@@ -1,0 +1,39 @@
+/* empezamos con la etiqueta h1,h2 que se usan en html para títulos principales y secundarios, en css h1 se le va a conocer como selector de elemento,
+los atributos serian colo, background color y rgb seria el valor de los atributos..*/
+
+h1,h2{
+    color: rgb(97, 5, 5);
+    background-color: rgb(100, 100, 161);
+}
+/*la etiqueta body es la que le va dar estilo a toda la pag web*/
+body{
+    color: rgb(97, 5, 5);
+    background-color: rgb(230, 230, 245);
+}
+
+/*para dar uso en css al # primero hay que darle un id en el html a lo que se le quiere aplicar lo que este dentro del #
+ejmplo <h1 id="titulo">aqui va el título</h1>*/
+
+#titulo{
+   font-family: fantasy;
+}
+
+/*selector class es el más importante  y se aplica de la siguiente manera */
+
+.seccion1{
+
+    color: rgb(4, 13, 65);
+    background-color: rgb(77, 134, 12);
+}
+
+.seccion2{
+    color: rgb(134, 105, 10);
+    background-color: rgb(65, 4, 57);
+}
+
+
+/*a continuación la manera de darle estilos a un titulo de alguna sección diferente a los demás.
+a esto se le llama combinación de selectores*/
+h2.seccion2{
+    color: red;
+}

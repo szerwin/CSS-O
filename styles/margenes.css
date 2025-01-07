@@ -1,0 +1,33 @@
+.cajita1 {
+    border-color: black; /* define el color del borde como negro. */
+    border-style: solid; /* el borde tendrá un estilo sólido. */
+    height: 400px; /* establece la altura del elemento en 400px. */
+    width: 400px; /* establece el ancho del elemento en 400px. */
+    background-color: red; /* el color de fondo es rojo. */
+    margin-top: 25px; /* añade un margen superior de 25px. */
+    margin-left: 25px; /* añade un margen a la izquierda de 25px. */
+}
+
+.cajita2 {
+    border-color: black; /* define el color del borde como negro. */
+    border-style: solid; /* el borde tendrá un estilo sólido. */
+    height: 150px; /* establece la altura del elemento en 150px. */
+    width: 150px; /* establece el ancho del elemento en 150px. */
+    background-color: rgb(22, 20, 161); /* establece el color de fondo con valores RGB. */
+    margin: 50px 60px 70px 80px; /* define márgenes en el siguiente orden:
+        - Superior: 50px.
+        - Derecha: 60px.
+        - Inferior: 70px.
+        - Izquierda: 80px.
+    */
+}
+
+.cajita3 {
+    border-color: black; /* define el color del borde como negro. */
+    border-style: solid; /* el borde tendrá un estilo sólido. */
+    height: 250px; /* establece la altura del elemento en 250px. */
+    width: 250px; /* establece el ancho del elemento en 250px. */
+    background-color: rgb(211, 198, 11); /* establece el color de fondo con valores RGB  */
+    margin-top: 25px; /* añade un margen superior de 25px. */
+    margin-left: 25px; /* añade un margen a la izquierda de 25px. */
+}

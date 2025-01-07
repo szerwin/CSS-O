@@ -1,0 +1,34 @@
+/*son 5 los tipos de posición static, relative, fixed, absolute, sticky, para ver su funcionamiento qita el comentario en cada bloque */
+
+/*.parrafo{
+    position: static;
+    border:  2PX solid red;
+}*/
+
+
+.parrafo{
+    position: relative; /*esta relative nos permite agregar hacia dónde queremos mover la margen de la clase parrafo aqui colocamos como ejemplo hacia la izquierda*/
+    border:  2PX solid red;
+    left: 20px;
+}
+
+/*.parrafo{
+    position: fixed;/**fixed permite pegar lo que esta en la clase parrafo en cualquie parte  de la pantalla, fijar*/
+    /*border:  2PX solid red;
+    left: 0;
+    bottom: 0;
+
+}*/
+
+/*.parrafo{
+position: absolute; /*se super pone la clase*/
+/*border: 2px solid red;
+
+}*/
+
+/*.parrafo{
+    position: sticky; /*es una mezcla ente relative y fixed*/
+    /*top: 50;
+    border: 2px solid red;
+}*/
+

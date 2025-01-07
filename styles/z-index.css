@@ -1,0 +1,13 @@
+h1{
+    position: absolute;
+    top: 20px;
+    font-size: 50px;
+   
+}
+
+.adelante{
+    position: absolute;
+    top: 20px;
+    font-size: 50px;
+    z-index: 2;/*z- index nos permite acomodar el fondo , en el ejm coloco una imagen de fondo y un título encima de ella y otra imagen al contario , encima del título*/
+}

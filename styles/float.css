@@ -1,0 +1,6 @@
+/*float permite organizar el texto alredeodr de la imagen*/
+img{
+    float: left;
+    width: 100px;
+    padding: 20px;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contactos</title>
+    <link rel="stylesheet" href="/practica/practicando1.css" />
+    <link rel="stylesheet" href="/practica/styles-practica1/contactos.css" />
+  </head>
+  <body>
+    <header>
+      <h1>AMÉRICA DE CALI, PASIÓN DE UN PUEBLO</h1>
+      <nav>
+        <ul>
+          <li><a href="practicando1.html">Inicio</a></li>
+          <li><a href="logros.html">Logros</a></li>
+          <li><a href="audiovisuales.html">AudioVisuales</a></li>
+          <li><a class="active" href="contactos.html">Contactos</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="formulario">
+        <form>
+          <input
+            type="text"
+            name="nombre"
+            id="nombre"
+            placeholder="Esribe tu nombre aquí"
+            required
+          />
+          <label for="nombre"> Nombre:</label>
+
+          <input
+            type="text"
+            name="apellido"
+            id="apellido"
+            placeholder="Esribe tu apellido aquí"
+            required
+          />
+          <label for="nombre">Apellido:</label>
+
+          <input
+            type="email"
+            name="mail"
+            id="mail"
+            placeholder="Esribe tu email aquí"
+            required
+          />
+          <label for="nombre"> Correo:</label>
+
+          <label for="ciudad">Ciudad</label>
+          <select name="ciudad" id="ciudad">
+            <option value="cali">Cali</option>
+            <option value="popayan">Popaýán</option>
+            <option value="pereira">Pereira</option>
+            <option value="armenia">Armenia</option>
+            <option value="bogota">Bogotá</option>
+            <option value="pasto">Pasto</option>
+            <option value="ibague">Ibagué</option>
+            <option value="neiva">Neiva</option>
+          </select>
+
+          <label for="mensaje">Descripción:</label>
+          <textarea name="mensaje" id="mensaje" placeholder="Escribe aquí un comentario" required></textarea>
+
+          <br>
+          <label for="motivo">Motivo de su comunicación:</label>
+          <div>
+            <input type="radio" name="motivo" id="informacion">
+            <label for="informacion">Información</label>
+          </div>
+
+          <div>
+            <input type="radio" name="motivo" id="fans">
+            <label for="fans">Hincha</label>
+          </div>
+
+          <div>
+            <input type="radio" name="motivo" id="buy">
+            <label for="buy">Compras</label>
+          </div>
+
+          <input type="submit" value="Enviar">
+         
+      </div>
+    </div>
+
+    <footer class="footer">Derechos Reservados &copy; 2025</footer>
+  </body>
+</html>

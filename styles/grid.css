@@ -1,0 +1,17 @@
+/**grid es un sistema de diseño bidimensional que permite organizar elementos en filas y columnas, ofreciendo un control preciso sobre la distribución y el alineamiento del contenido en una página web.*/
+
+.grid-container {
+    display: grid; /* convierte el contenedor en un contenedor de rejilla. */
+    background-color: chocolate; /* establece el color de fondo del contenedor. */
+    grid-template-columns: repeat(3, 120px); /* define 3 columnas de 120px cada una. */
+    grid-template-rows: repeat(3, 120px); /* define 3 filas de 120px cada una. */
+    justify-items: center;/* para centrar*/
+    
+}
+
+.grid-container > div {
+    background-color: red; /* establece el color de fondo de los elementos hijos directos. */
+    padding: 20px; /* agrega un espacio interior de 20px entre el contenido y el borde del elemento. */
+    font-size: 1.5em; /* ajusta el tamaño del texto a 1.5 veces el tamaño base del documento. */
+    margin: 10px;
+}

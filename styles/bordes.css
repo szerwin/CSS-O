@@ -1,0 +1,74 @@
+p.dotted {
+    border-style: dotted; /* el borde está formado por puntos. */
+    border-color: brown; /* el color del borde es marrón. */
+    border-width: 5px; /* el borde tiene un grosor de 5 píxeles. */
+    border-radius: 25px; /* las esquinas del borde son redondeadas con un radio de 25 píxeles. */
+}
+
+p.dashed {
+    border-style: dashed; /* el borde está formado por líneas discontinuas. */
+    border-color: rgb(71, 165, 42); /* el color del borde  con el valor RGB especificado. */
+    border-width: 5px; /* grosor del borde de 5 píxeles. */
+    border-radius: 25px; /* esquinas redondeadas con 25 píxeles de radio. */
+}
+
+p.solid {
+    border-style: solid; /* el borde es una línea continua. */
+    border-color: rgb(6, 25, 61); /* el color del borde  basado en el valor RGB especificado. */
+    border-width: 5px; /* grosor del borde de 5 píxeles. */
+    border-radius: 25px; /* esquinas redondeadas con 25 píxeles de radio. */
+}
+
+p.double {
+    border-style: double; /* el borde tiene un estilo doble. */
+    border-color: rgb(93, 109, 5); /* color del borde . */
+    border-width: 5px; /* grosor del borde de 5 píxeles. */
+    border-radius: 25px; /* esquinas redondeadas con 25 píxeles de radio. */
+}
+
+p.groove {
+    border-style: groove; /* el borde parece esculpido, dando un efecto 3D hacia adentro. */
+    border-color: rgb(112, 8, 98); /* color  para el borde. */
+    border-width: 5px; /* grosor del borde de 5 píxeles. */
+    border-radius: 25px; /* esquinas redondeadas con 25 píxeles de radio. */
+}
+
+p.ridge {
+    border-style: ridge; /* el borde parece elevado, dando un efecto 3D hacia afuera. */
+    border-color: rgba(126, 118, 5, 0.363); /* color amarillo con opacidad  de 36.3%. */
+    border-width: 5px; /* Grosor del borde de 5 píxeles. */
+    border-radius: 25px; /* esquinas redondeadas con 25 píxeles de radio. */
+}
+
+p.inset {
+    border-style: inset; /* el borde parece insertado en la página, con un efecto 3D hacia adentro. */
+    border-color: brown; /* el color del borde es marrón. */
+    border-width: 5px; /* grosor del borde de 5 píxeles. */
+    border-radius: 25px; /* esquinas redondeadas con 25 píxeles de radio. */
+}
+
+p.outset {
+    border-style: outset; /* el borde parece sobresalir de la página, con un efecto 3D hacia afuera. */
+    border-color: brown; /* el color del borde. */
+    border-width: 20px; /* grosor del borde de 20 píxeles, más grueso que otros estilos. */
+    border-radius: 25px; /* esquinas redondeadas con 25 píxeles de radio. */
+}
+
+p.none {
+    border-style: none; /* no se muestra borde alguno. */
+   
+}
+
+p.hidden {
+    border-style: hidden; /* el borde no es visible, pero ocupa espacio en el diseño. */
+    border-color: brown; /* color del borde especificado pero oculto. */
+    border-width: 5px; /* grosor del borde de 5 píxeles, aunque no es visible. */
+    border-radius: 25px; /* esquinas redondeadas, pero el borde sigue oculto. */
+}
+
+p.mix {
+    border-style: dotted hidden inset ridge; /* aplica diferentes estilos de borde para cada lado: */
+    border-color: rgb(26, 8, 70); /* Color del borde  basado en el valor RGB especificado. */
+    border-width: 5px; /* grosor del borde de 5 píxeles para todos los lados. */
+    border-radius: 25px; /* esquinas redondeadas con 25 píxeles de radio. */
+}

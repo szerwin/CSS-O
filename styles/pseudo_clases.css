@@ -1,0 +1,45 @@
+/* 
+/*esta es la estructrura para darles estilos a las pseudo clases*/
+/* elemento:seudoelemento{
+    propiedad: valor;
+} */
+
+
+ a {
+    text-decoration: none; /* Quita el subrayado */
+    font-size: 18px;       /* Tamaño de fuente */
+    font-weight: bold;     /* Negrita */
+    color: black;
+}
+
+a:link{
+    color: rgb(126, 139, 8);/*color a letras de nombre de enlaces*/
+   
+   
+}
+
+a:visited{
+    background-color: rgb(17, 136, 13);/*color que toma el nombre de enlace al ser visitado*/
+}
+
+a:hover{
+    background-color: brown;/*color que toma el nombre de enlace cuando el puntero se pasa por encina de el */
+}
+
+a:active{
+    background-color: chocolate;/*color que toma el enlace cuando se le da clic*/
+} 
+
+
+/*parte dos del html diferentes usos del hover*/
+
+p{
+    display: none;
+    background-color: coral;
+    padding: 30px;
+}
+
+div:hover p{
+    display: block;
+
+}

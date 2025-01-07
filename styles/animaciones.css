@@ -1,0 +1,77 @@
+/* body{
+    background-color: rgb(129, 80, 16);
+    color: white;
+} */
+/* 
+img{
+    position: absolute;
+    top: 0;
+    opacity: 1;
+    transition: opacity 2s; /* añadir transición suave */
+/*} */
+
+/* @keyframes imagen{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0.5;
+    }
+} */
+
+/* img:hover{
+    opacity: 0.5; /* cambia la opacidad al pasar el ratón */
+/*} */
+
+
+/*animación de div*/
+
+/* .animacion{
+    border: 2px solid red;
+    width: 200px;
+    height: 200px;
+} */
+
+/*este parte es para dra movimientos en la pantalla las class seleccionadas */
+
+.animacion {
+    border: 2px solid red; /* aplica un borde de 2 píxeles al elemento. */
+    width: 200px; /* establece el ancho del elemento en 200 píxeles. */
+    height: 200px; /* establece la altura del elemento en 200 píxeles. */
+    position: relative; /* permite que el elemento se posicione respecto a su contenedor más cercano con posición establecida. */
+    animation-name: animacion; /* asigna el nombre "animacion" a la animación que se aplicará al elemento. */
+    animation-duration: 5s; /* establece la duración de la animación completa en 5 segundos. */
+    animation-timing-function: ease-in-out; /* define una aceleración inicial y desaceleración al final de la animación. */
+    animation-delay: 1s; /* retrasa el inicio de la animación en 1 segundo. */
+    animation-iteration-count: infinite; /* hace que la animación se repita indefinidamente. */
+    animation-direction: alternate; /* alterna la dirección de la animación: avanza en una iteración y retrocede en la siguiente. */
+}
+
+
+@keyframes animacion {
+    0% {
+        background-color: blue; /* al inicio de la animación, el fondo será azul. */
+        left: 0; /* la posición horizontal será 0 píxeles desde el borde izquierdo del contenedor. */
+        top: 0; /* laa posición vertical será 0 píxeles desde el borde superior del contenedor. */
+    }
+    25% {
+        background-color: rgb(255, 153, 0); /* cambia el color de fondo a un tono naranja. */
+        left: 200px; /* mueve el elemento 200 píxeles hacia la derecha. */
+        top: 0; /* maantiene el elemento en la parte superior del contenedor. */
+    }
+    50% {
+        background-color: rgb(18, 104, 29); /* cambia el color de fondo a un tono verde. */
+        left: 200px; /* mantiene el elemento 200 píxeles hacia la derecha. */
+        top: 200px; /* mueve el elemento 200 píxeles hacia abajo. */
+    }
+    75% {
+        background-color: rgb(168, 87, 21); /* Ccmbia el color de fondo a un tono marrón. */
+        left: 0; /* regresa el elemento a la posición inicial en el eje horizontal. */
+        top: 200px; /* mantiene el elemento 200 píxeles hacia abajo. */
+    }
+    100% {
+        background-color: blue; /* el fondo vuelve a ser azul. */
+        left: 0; /* regresa el elemento a su posición inicial en el eje horizontal. */
+        top: 0; /* regresa el elemento a su posición inicial en el eje vertical. */
+    }
+}

@@ -1,0 +1,37 @@
+/* Para aplicar colores, se pueden usar por nombre, hexadecimal y RGB */
+
+/* demostración de colores por nombre */
+h1 {
+    background-color: chocolate; /* fondo . */
+    color: black; /* color de texto. */
+}
+
+/* demostración de colores por hexadecimal */
+h1 {
+    background-color: #613434; /* fondo  en código hexadecimal. */
+    color: #7a4343; /* color de texto  en código hexadecimal. */
+}
+
+/* demostración de colores por RGB */
+h1 {
+    background-color: rgb(97, 52, 52); /* fondo definido por valores RGB. */
+    color: rgb(65, 60, 60); /* color de texto en  valores RGB. */
+}
+
+
+/* a continuación, cómo darle color al fondo de la página */
+
+/* Comentado para evitar conflictos en pruebas:
+body {
+    background: linear-gradient(90deg, #ffffff 0%, #920c0c 100%);
+    /* fondo degradado en un ángulo de 90 grados, de blanco (#ffffff) a rojo oscuro (#920c0c). */
+/*}
+*/
+
+/* para emplear imágenes como fondo, damos la ruta desde la carpeta "assets". */
+body {
+    background-image: url('/assets/descarga.png'); /* aplica una imagen como fondo. */
+    background-size: cover; /* Eecala la imagen para cubrir todo el fondo de la página. */
+    background-repeat: no-repeat; /* evita que la imagen se repita. */
+    background-position: center; /* centra la imagen en el fondo. */
+}

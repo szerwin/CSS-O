@@ -1,0 +1,35 @@
+.container {
+    display: flex; /* activa el modelo de diseño flexbox, que facilita la alineación y distribución de los elementos dentro del contenedor. */
+    justify-content: center; /* centra los elementos hijos horizontalmente dentro del contenedor. */
+    align-items: center; /* centra los elementos hijos verticalmente dentro del contenedor. */
+    margin-bottom: 20px; /* añade un espacio inferior al contenedor para separarlo de otros elementos debajo. */
+    text-align: center; /* centra horizontalmente el texto contenido en los elementos dentro del contenedor. */
+    flex-direction: column; /* apila los elementos hijos en una columna . */
+}
+
+div.img {
+    margin: 10px; /* añade un espacio exterior de 10 píxeles alrededor del contenedor de la imagen. */
+    border: 1px solid #ccc; /* añade un borde de 1 píxel con color gris claro alrededor del contenedor de la imagen. */
+    float: left; /* posiciona el contenedor flotando hacia la izquierda para que los elementos se alineen uno al lado del otro. */
+    width: 30%; /* define el ancho del contenedor de la imagen como el 30% del contenedor principal. */
+    box-sizing: border-box; /* incluye el padding y el borde en el cálculo del ancho total del elemento. */
+}
+
+div.img img {
+    width: 100%; /* la imagen ocupa todo el ancho disponible del contenedor. */
+    height: auto; /* nantiene la relación de aspecto original de la imagen mientras se adapta al ancho. */
+}
+
+div.desc {
+    padding: 10px; /* añade espacio interno alrededor del texto dentro del contenedor de descripción. */
+    text-align: center; /* centra horizontalmente el texto dentro del contenedor. */
+    font-size: 14px; /* define el tamaño de la fuente en 14 píxeles. */
+}
+
+.footer {
+    background-color: #333; /* sstablece el color de fondo del pie de página en gris oscuro. */
+    color: #FFF; /* define el color del texto del pie de página como blanco. */
+    padding: 10px; /* añade espacio interno dentro del pie de página. */
+    text-align: center; /* centra horizontalmente el texto dentro del pie de página. */
+    clear: both; /* asegura que el pie de página se posicione debajo de cualquier elemento flotante anterior. */
+}

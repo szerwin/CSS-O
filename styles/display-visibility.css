@@ -1,0 +1,48 @@
+.caja1 {
+    width: 100px; /* ancho de la caja. */
+    height: 100px; /* altura de la caja. */
+    background-color: brown; /* color de fondo. */
+    border-color: black; /* color del borde . */
+    display: inline; /* se comporta como un elemento en línea, permitiendo que las cajas estén en la misma fila. */
+}
+
+.caja2 {
+    width: 100px; /* ancho de la caja. */
+    height: 100px; /* altura de la caja. */
+    background-color: rgb(39, 7, 90); /* fondo definido por valores RGB. */
+    border-color: black; /* color del borde . */
+    display: inline; /* se comporta como un elemento en línea. */
+}
+
+.caja3 {
+    width: 100px; /* ancho de la caja. */
+    height: 100px; /* altura de la caja. */
+    background-color: rgb(14, 145, 127); /* fondo definido por valores RGB. */
+    border-color: black; /* color del borde . */
+    display: inline; /* se comporta como un elemento en línea. */
+}
+
+.box1 {
+    width: 100px; /* ancho de la caja. */
+    height: 100px; /* altura de la caja. */
+    background-color: rgb(161, 218, 28); /* fondo definido por valores RGB. */
+    border-color: black; /* Color del borde. */
+    display: block; /* se comporta como un bloque, ocupando toda la línea disponible. */
+    visibility: hidden; /* oculta la caja, pero su espacio sigue ocupando lugar en el diseño. */
+}
+
+.box2 {
+    width: 100px; /* ancho de la caja. */
+    height: 100px; /* altura de la caja. */
+    background-color: rgb(190, 136, 19); /* fondo definido por valores RGB. */
+    border-color: black; /* color del borde . */
+    display: block; /* se comporta como un bloque, ocupando toda la línea disponible. */
+}
+
+.box3 {
+    width: 100px; /* ancho de la caja. */
+    height: 100px; /* altura de la caja. */
+    background-color: rgb(22, 47, 61); /* fondo definido por valores RGB. */
+    border-color: black; /* color del borde negro. */
+    display: block; /* se comporta como un bloque, ocupando toda la línea disponible. */
+}

@@ -1,0 +1,19 @@
+/*cuatro tipos de combinadores: descendente, hijos, hermanos adyacentes, hermanos generales, debemos quitar el comentario para ver las difrencias*/
+
+/*div p {
+    background-color: brown;
+}*/
+
+/*div>p {/*este > símbolo se usa para seleccionar los hijos de cada etiqueta*/
+   /* background-color: brown;
+}*/
+
+
+
+/*div+p {/*este  + se usa para seleccionar el hermano adyacente*/
+    /*background-color: brown;
+}*/
+
+div~p {/*este ~ se usa para seleccionar el hermano generales*/
+    background-color: brown;
+}

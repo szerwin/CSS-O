@@ -1,0 +1,34 @@
+.container {
+    justify-content: center; /* centra el contenido horizontalmente dentro del contenedor */
+    display: flex; /* aplica un modelo de diseño flexible para organizar el contenido */
+}
+
+table {
+    border-collapse:collapse; /* cambia a 'separate' para permitir espacio entre bordes */
+    border-spacing: 5px; /* define el espacio entre las celdas en la tabla */
+    border: 2px solid white; /* mantén el borde blanco de la tabla */
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+}
+
+
+th {
+    color: rgb(207, 10, 10); 
+    border: 1px solid rgb(190, 190, 190); /* aplica un borde gris claro a las cabeceras */
+    padding: 10px 20px; /* establece el espacio interno  de las cabeceras */
+}
+
+td {
+    color: rgb(221, 208, 208); /* define el color del texto en las celdas como gris claro */
+    border: 1px solid rgb(190, 190, 190); /* aplica un borde gris claro sólido de 1px a las celdas */
+    padding: 10px 20px; /* eestablece el espacio internode las celdas */
+}
+
+.footer {
+    background-color: #333; /* establece el fondo del pie de página en gris oscuro */
+    color: #FFF; /* establece el color del texto en blanco */
+    padding: 10px; /* añade espacio interno al pie de página */
+    text-align: center; /* centra el texto horizontalmente */
+    clear: both; /* asegura que el pie de página esté debajo de otros elementos flotantes */
+}

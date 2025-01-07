@@ -1,0 +1,20 @@
+ul {
+    list-style-type: decimal; /* define el estilo de las viñetas como números (1, 2, 3...). */
+    /* list-style-image: url(/assets/icons8-perro-50.png); */ /* Permite reemplazar las viñetas con una imagen especificada. */
+    background-color: brown; /* aplica un color de fondo  al contenedor de la lista no ordenada. */
+    padding: 5px; /* añade un relleno interno de 5px dentro del contenedor. */
+}
+
+li {
+    color: rgb(26, 25, 25); /* define el color del texto de cada elemento de lista. */
+    background-color: azure; /* aplica un color de fondo  a los elementos de lista individuales. */
+    padding: 5px; /* añade un relleno interno de 5px dentro de cada elemento de lista. */
+    margin: 10px; /* añade un margen de 10px alrededor de cada elemento de lista, separándolos entre sí. */
+}
+
+ol {
+    color: rgb(26, 25, 25); /* define el color del texto de las listas ordenadas. */
+    background-color: azure; /* aplica un color de fondo  al contenedor de la lista ordenada. */
+    padding: 5px; /* añade un relleno interno de 5px dentro del contenedor. */
+    margin: 10px; /* añade un margen de 10px alrededor del contenedor de la lista ordenada. */
+}

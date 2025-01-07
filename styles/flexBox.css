@@ -1,0 +1,16 @@
+.flex-container {
+    display: flex; /* convierte el contenedor en un contenedor flex. Los hijos directos se comportarán como elementos flexibles. */
+    background-color: chocolate; /* establece el color de fondo del contenedor. */
+    flex-direction: row; /* los elementos flexibles se organizan en una fila horizontal, de izquierda a derecha. */
+    flex-wrap: wrap; /* permite que los elementos se ajusten a una nueva línea si no caben en una sola fila. */
+    justify-content: space-between; /* distribuye los elementos a lo largo del eje principal con el máximo espacio entre ellos. */
+    align-items: center; /* ordena los elementos a lo largo del eje cruzado en el centro del contenedor. */
+}
+
+.flex-container > div {
+    background-color: red; /* establece el color de fondo de los elementos hijos directos. */
+    margin: 20px; /* agrega un espacio de 20 píxeles alrededor de cada elemento. */
+    padding: 20px; /* agrega un espacio de 20 píxeles dentro de cada elemento, entre su contenido y el borde. */
+    font-size: 2em; /* define el tamaño del texto como el doble del tamaño de fuente base del documento. */
+    width: 60px; /* establece un ancho fijo de 60 píxeles para cada elemento hijo. */
+}

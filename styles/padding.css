@@ -1,0 +1,7 @@
+
+/*el paddig es el espacio interno del div*/
+.cajita{
+    border-style: dashed;
+    background-color: rgb(5, 83, 83);
+    padding: 30px;
+}

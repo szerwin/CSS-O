@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(129, 80, 16); /* color de fondo del cuerpo de la página */
+    color: white; /* color de texto */
+}
+
+img {
+    position: absolute; /* posiciona la imagen de forma absoluta */
+    top: 0; /* posición superior de la imagen */
+    opacity: 1; /* opacidad inicial de la imagen */
+    transition: opacity 2s; /* transición de opacidad con una duración de 2 segundos */
+    width: 500px; /* ancho inicial de la imagen */
+    transition-property: opacity 2s; /* define qué propiedades se animarán (opacidad) */
+    transition-duration: 0.3s; /* duración de la transición (0.3 segundos) */
+    transition-timing-function: ease-in-out; /* tipo de curva de transición */
+    transition-delay: 1s; /* rtraso de 1 segundo antes de que comience la transición */
+    transition: width 6s linear; /* transición en el ancho con una duración de 6 segundos */
+}
+
+/* Cuando el puntero pasa sobre la imagen */
+img:hover {
+    width: 1000px; /* el ancho de la imagen aumenta a 1000px */
+    opacity: 0.5; /* cambia la opacidad a 0.5 */
+}

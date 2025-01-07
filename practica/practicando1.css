@@ -1,0 +1,104 @@
+/* aplica un fondo degradado al cuerpo, de izquierda a derecha, con tonos oscuros */
+body {
+    background: linear-gradient(to right, rgb(18, 18, 19), rgb(56, 54, 54));
+    color: red; /* define el color del texto global */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Define la fuente */
+    padding: 20px; /* espaciado interno */
+    margin: 0; /* elimina márgenes por defecto */
+}
+
+
+header {
+    text-align: center;/* centra el texto dentro del encabezado */
+}
+
+/* estilo para listas no ordenadas */
+ul {
+    list-style-type: none; /* quita los puntos de las listas */
+    margin: 0; /* elimina márgenes externos */
+    padding: 0; /* elimina espaciado interno */
+    overflow: hidden; /* asegura que no haya desbordes */
+    background-color: #242323; /* fondo oscuro para la barra de navegación */
+}
+
+/* define cada elemento de la lista */
+li {
+    float: right; /* alinea los elementos en línea horizontal */
+}
+
+/* estiliza los enlaces dentro de los elementos de la lista */
+li a {
+    display: block; /* hace que los enlaces sean cajas de bloque */
+    color: rgba(216, 11, 11, 0.884); /* color del texto */
+    text-align: center; /* centra horizontalmente el texto */
+    padding: 14px 14px; /* espaciado interno */
+    text-decoration: none; /* quita el subrayado */
+}
+
+/* estilo para los enlaces al pasar el cursor, excepto los activos */
+li a:hover:not(.active) {
+    background-color: #c2bbbb; /* cambia el color de fondo */
+}
+
+/* estilo para el enlace activo */
+.active {
+    background-color: #3a2e18; /* color único para el enlace activo */
+}
+
+
+h1 {
+    padding: 10px; /* espaciado interno */
+    margin: 0; /* sin márgenes externos */
+    color: #88080e; /* color del texto */
+}
+
+
+h2 {
+    font-size: 24px; /* tamaño de la fuente */
+    margin: 0; /* sin márgenes externos */
+    padding: 0; /* sin espaciado interno */
+}
+
+.container {
+    max-width: 100%; /* ajusta el ancho máximo */
+    margin: 0 auto; /* centra el contenedor */
+    padding: 20px; /* espaciado interno */
+}
+
+p {
+    font-size: 16px; /* tamaño del texto */
+    line-height: 1.5; /* altura de línea */
+    margin-bottom: 20px; /* espaciado inferior */
+}
+
+
+.img1 {
+    float: right; /* flota a la derecha */
+    margin: 0 0 20px 20px; /* márgenes alrededor de la imagen */
+    max-width: 10%; /* tamaño máximo en porcentaje */
+    height: auto; /* mantiene la proporción de la imagen */
+}
+
+.img2 {
+    float: left; /* flota a la izquierda */
+    margin: 0 20px 20px 0; /* márgenes alrededor de la imagen */
+    max-width: 25%; /* tamaño máximo en porcentaje */
+    height: auto; /* mantiene la proporción de la imagen */
+}
+
+.article {
+    float: left; /* alinea los artículos a la izquierda */
+    width: 70%; /* ancho del artículo */
+    background-color: #FFF; /* fondo blanco */
+    padding: 10px; /* espaciado interno */
+    margin: 10px; /* márgenes externos */
+    border: 1px solid #CCC; /* borde gris claro */
+}
+
+.footer {
+    background-color: #333; /* fondo oscuro */
+    color: #FFF; /* texto blanco */
+    padding: 10px; /* espaciado interno */
+    text-align: center; /* centra el texto */
+    clear: both; /* limpia los flotantes anteriores */
+}

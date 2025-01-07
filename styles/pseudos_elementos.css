@@ -1,0 +1,28 @@
+/* de esta manera se escribe los pseudos elementos
+selecctor::seudoelemento{
+    propiedad:valor;
+} */
+/*para resaltar la primera linea del texto*/
+/* p::first-line{
+    background-color: brown;
+} */
+
+/*para resaltar la primera letra del texto*/
+p::first-letter{
+    font-size: 3em;
+    color: brown;
+}
+
+h1::after{
+    content: url(/assets/icons8-perro-50.png);/*colocar imagenes*/
+}
+/*listas*/
+::marker{
+    color: blue;
+    font-size: 3em;
+}
+/*de esta manera cuando sellecionemos algo va a tomar el color de fondo negro y las letras brown*/
+::selection{
+    background-color: black;
+    color: brown;
+}

@@ -1,0 +1,48 @@
+
+/*alinear el texto y justificarlo*/
+h1{
+    color: blue;
+    text-align: center;
+    text-shadow: 2px 2px 10px;/* sirve para dar sombras a los títulos*/
+}
+
+h2{
+    color: brown;
+    text-align: center;
+}
+
+p{
+    color: rgb(34, 34, 33);
+    text-align: justify;
+}
+
+b,i{
+    color: blueviolet;
+}
+
+/*de la siguente manera se puede dar estilo a los textos, lineas encima, tacahndo o debajo del texto*/
+.overline{
+   text-decoration-line: overline;
+}
+
+.line-through{
+  text-decoration-line: line-through ;
+}
+
+
+.underline{
+    text-decoration-line: underline;
+}
+
+/*transformar texto de mayúscula a minúsculas, primera letra mayúscula el resto minúscula*/
+
+.transformacion{
+    text-transform: lowercase;/*mirar más opciones que hay*/
+    text-indent: 10%;/*para dar sangria al texto*/
+}
+
+/* continuación se va a poder dar el tipo de letar que se quiere mostrar en la pag*/
+.tipos{
+    font-family: cursive;
+    font-size: 100%;
+}

@@ -1,0 +1,63 @@
+/* .container es un contenedor flexible que utiliza Flexbox para centrar su contenido tanto vertical como horizontalmente. */
+.container {
+    display: flex; /* hbilita el diseño de Flexbox para el contenedor. */
+    flex: 1; /* hace que el contenedor ocupe todo el espacio de su elemento padre. */
+    justify-content: center; /* centra horizontalmente los elementos hijos dentro del contenedor. */
+    align-items: center; /* centra verticalmente los elementos hijos dentro del contenedor. */
+}
+input {
+    color: rgb(19, 18, 18); /* define el color del texto de los campos de entrada. */
+}
+
+
+label {
+    color: rgb(235, 223, 223); /* establece el color del texto de las etiquetas en un blanco suave para contraste. */
+}
+
+.formulario {
+    border-radius: 5px; /* redondea las esquinas del contenedor del formulario. */
+    background-color: #0a0a0a; /* define un color de fondo oscuro para el formulario. */
+    padding: 20px; /* agrega espacio interno dentro del contenedor del formulario. */
+    width: 50%; /* hace que el formulario ocupe el 50% del ancho del elemento padre. */
+    max-width: 500px; /* establece un ancho máximo para mantener consistencia en pantallas grandes. */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* agrega una sombra sutil para dar profundidad. */
+}
+
+/* estilos generales para campos de texto, correos electrónicos, áreas de texto y menús desplegables. */
+input[type=text],
+input[type=email],
+textarea,
+select {
+    width: 100%; /* hace que los campos de entrada ocupen el 100% del ancho del formulario. */
+    padding: 12px 20px; /* aagrega espacio interno dentro de los campos para mejor usabilidad. */
+    margin: 8px 0; /* agrega espacio vertical entre los campos. */
+    display: inline-block; /* aegura que los elementos sean en línea respetando propiedades de bloque. */
+    border: 1px solid #ccc; /* agrega un borde gris claro a los campos de entrada. */
+    border-radius: 4px; /* redondea ligeramente las esquinas de los campos de entrada. */
+    box-sizing: border-box; /* asegura que el relleno y el borde se incluyan en el ancho y alto del elemento. */
+}
+
+
+input[type=submit] {
+    width: 100%; /* hace que el botón de envío ocupe todo el ancho del formulario. */
+    background-color: #970505; /* define un color de fondo rojo oscuro para el botón. */
+    color: white; /* establece el color del texto del botón en blanco para contraste. */
+    padding: 20px 100px; /* agrega espacio interno para hacer el botón más atractivo visualmente. */
+    margin: 8px 0; /* agrega espacio vertical alrededor del botón. */
+    border: none; /* elimina el borde predeterminado para un aspecto más limpio. */
+    border-radius: 10px; /* redondea las esquinas del botón. */
+    cursor: pointer; /* cambia el cursor para indicar que el botón es clicable. */
+}
+
+input[type=submit]:hover {
+    background-color: #1d1414; /* cambia el color de fondo a un rojo más oscuro al pasar el cursor. */
+}
+
+
+.footer {
+    background-color: #333; /* define el color de fondo del pie de página en gris oscuro. */
+    color: #FFF; /* establece el color del texto del pie de página en blanco para contraste. */
+    padding: 10px; /* agrega espacio interno dentro del pie de página para mejor separación. */
+    text-align: center; /* centra el texto del pie de página. */
+    clear: both; /* elimina cualquier elemento flotante para asegurar un diseño adecuado. */
+}

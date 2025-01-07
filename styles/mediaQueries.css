@@ -1,0 +1,35 @@
+/* Las media queries se utilizan para adaptar la página web a diferentes tamaños de pantalla,
+   esto asegura que la interfaz no se descomponga al cambiar entre diferentes dispositivos o 
+   modos de orientación (horizontal/vertical). */
+
+   .container {
+    overflow: auto; /* permite que el contenido se desplace si excede el tamaño del contenedor. */
+}
+
+.leftside {
+    float: none; /* elimina cualquier flotado previamente aplicado. */
+    width: auto; /* establece el ancho automático, ajustándose al contenido disponible. */
+}
+
+.parrafo {
+    position: absolute; /* posiciona el párrafo en relación al contenedor más cercano con posición relativa o absoluta. */
+    top: 0; /* Coloca el párrafo en la parte superior del contenedor. */
+    color: rgb(79, 110, 48); /* Establece el color del texto en un verde oscuro. */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* Define las fuentes prioritarias para el texto. */
+}
+
+/* media query: Se aplicarán los siguientes estilos solo si el ancho de la pantalla es de al menos 545px, para sabwr este valoe se debe inspeccionar la pag */
+@media (min-width: 545px) {
+    .leftside {
+        float: none; /* mantiene la eliminación de flotado. */
+        width: auto; /* ajusta el ancho al contenido disponible. */
+    }
+
+    img {
+        width: 400px; /* ajusta el ancho de las imágenes a 400px. */
+    }
+
+    .parrafo {
+        position: static; /* restablece la posición a su flujo normal en la pag. */
+    }
+}
